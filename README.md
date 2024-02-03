@@ -17,5 +17,7 @@ auto decrypted_eprocess = ((cur_mmpfn->flags | 0xF000000000000000) >> 0xd) | 0xF
 
 有此得出EPROCESS和Dirbase
 
+https://bbs.kanxue.com/thread-261778.htm win10 1909逆向（通过任意物理帧判断是否是CR3和解密得到所属EPROCESS
+
 # enum_real_dirbase
 ![Image text](https://github.com/Rythorndoran/enum_real_dirbase/blob/master/QQ%E6%88%AA%E5%9B%BE20230818115205.png)
